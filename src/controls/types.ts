@@ -11,7 +11,6 @@ export type ControlCtx = {
   // 底图（用于 switch）
   getBasemapKey: () => string;
   setBasemapKey: (key: string) => void;
-  basemapKeys: string[];
 
   // 清理（用于 clear）
   clearManagedLayers: () => void;
